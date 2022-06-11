@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.parent{
+display: flex;
+width: 100%;
+height: 100vh;
+justify-content: center;
+align-items: center;
+}
+
+.child{
+    overflow: hidden;  
+    position: relative;
+    width: 640px;
+    height: 640px;
+}
+
+.fa-circle-arrow-right{
+    font-size: 50px;
+    position: absolute;
+    z-index: 7;
+    top: 320px;
+    right: 0;
+    color: rgb(173, 173, 173);
+}
+.fa-circle-arrow-left{
+    position: absolute;
+    z-index: 6;
+    font-size: 50px;
+    top: 320px;
+    left: 0px;
+    color: rgb(173, 173, 173);
+}
+
+.fa-circle-arrow-right:hover{
+    color:rgba(255, 255, 255, 0.986);
+    cursor: pointer;
+}
+
+.fa-circle-arrow-left:hover{
+    color:rgba(255, 255, 255, 0.986);
+    cursor: pointer;
+}
+
+.imagesdiv{
+display: flex;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+}
+
+.bulletKeysDiv{
+    position: absolute;
+    bottom: 2px;
+    left: 279px;
+    width: fit-content;
+}
+
+.bulletKey{
+    margin: 0px 10px 0px 0px ;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(173, 173, 173);
+}
+
+.bulletKey:hover{
+    background-color:rgba(255, 255, 255, 0.986) !important;
+    cursor: pointer !important;
+}
